@@ -2,11 +2,17 @@ import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+//routers
+import {BrowserRouter} from 'react-router-dom'
+
 //components
 import Header from './components/Header/Navigation/index';
 import SideDrawer from './components/Header/Navigation/SideDrawer/SideDrawer'
 import Backdrop from './components/Header/Navigation/Backdrop/Backdrop'
 import AcessBar from './components/Header/AcessBar/AcessBar';
+
+//Pages
+import Home from './Pages/Home'
 
 class App extends Component {
   state = {
@@ -40,6 +46,7 @@ class App extends Component {
         <Header drawerClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen}/>
         {backdrop}
+        <Home />
       </div>
     )
   }

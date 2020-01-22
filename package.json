@@ -27,5 +27,8 @@
   "homepage": "https://github.com/antonialucianapires/site_eLeve#readme",
   "dependencies": {
     "create-react-app": "^3.3.0"
+  },
+  "devDependencies": {
+    "react-router-dom": "^5.1.2"
   }
 }
