@@ -1,18 +1,14 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
-
-//routers
-import {BrowserRouter} from 'react-router-dom'
 
 //components
 import Header from './components/Header/Navigation/index';
 import SideDrawer from './components/Header/Navigation/SideDrawer/SideDrawer'
 import Backdrop from './components/Header/Navigation/Backdrop/Backdrop'
-import AcessBar from './components/Header/AcessBar/AcessBar';
 
-//Pages
-import Home from './Pages/Home'
+//Route/Pages
+import Routes from '/home/myworkspace/site_eLeve/frontend/src/routes.js'
+
 
 class App extends Component {
   state = {
@@ -42,11 +38,10 @@ class App extends Component {
     }
     return (
       <div style={{ height: '100%' }}>
-        <AcessBar />
         <Header drawerClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen}/>
         {backdrop}
-        <Home />
+        <Routes />
       </div>
     )
   }
