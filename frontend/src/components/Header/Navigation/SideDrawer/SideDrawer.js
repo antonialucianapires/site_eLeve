@@ -1,5 +1,9 @@
 import React from 'react';
 import Logo from '/home/myworkspace/site_eLeve/frontend/src/images/logo.png'
+import {Link} from 'react-router-dom';
+
+//pages
+import Contato from '../../../../Pages/Contato/Contato'
 
 import './SideDrawer.css'
 
@@ -17,7 +21,7 @@ const sideDrawer = props => {
         <li><a href="#">SOBRE</a></li>
         <li><a href="#">BLOG</a></li>
         <li><a href="#">PARCEIROS</a></li>
-        <li><a href="#">CONTATO</a></li>
+        <Link to={Contato}>Contato</Link>
       </ul>
     </nav>
   )
