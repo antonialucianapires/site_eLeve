@@ -20,8 +20,8 @@ Para conferir a versão antiga, acesse:
 <ul>
 
 <li>Clone o repositório</li>
-<li>Na pasta do projeto, acesse o terminal e execute <em>bom install</em></li>
-<li>Em seguida, <em> yarn star</em></li>
+<li>Na pasta do projeto, acesse o terminal e execute <em>npm install</em></li>
+<li>Em seguida, <em> yarn start</em></li>
 
 
 </ul>
