@@ -21,7 +21,7 @@ const sideDrawer = props => {
         <li><a href="#">SOBRE</a></li>
         <li><a href="#">BLOG</a></li>
         <li><a href="#">PARCEIROS</a></li>
-        <Link to={Contato}>Contato</Link>
+        <li><Link to={"/contato"}>Contato</Link></li>
       </ul>
     </nav>
   )
