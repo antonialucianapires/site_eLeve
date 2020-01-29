@@ -8,12 +8,10 @@ O site está de cara nova!
 Para conferir a versão antiga, acesse:
   
  <ul>
-  <li><a href="
-https://e-leve-rj.netlify.com/">https://e-leve-rj.netlify.com</a></li>
+  <li><a href="https://e-leve-rj.netlify.com">Netlify</a></li>
 
 
-  <li><a href="
-https://e-leve-rj.netlify.com/">Código</a></li>
+  <li><a href="https://github.com/arthurfig/e-Leve-React">Código</a></li>
 
 </ul>
 
