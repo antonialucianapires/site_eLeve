@@ -26,4 +26,14 @@ Para conferir a versão antiga, acesse:
 
 </ul>
 
+#### Colaboradores
+
+  <a href="https://github.com/aLinesantwos">Aline Santos</a><br>
+  <a href="https://github.com/DevAnaBea">Ana Beatriz</a><br>
+  <a href="https://github.com/antonialucianapires">Antonia Luciana Pires</a><br>
+  <a href="https://github.com/arthurfig">Arthur Figueira</a><br>
+  <a href="https://github.com/Diego-1998">Diego Leandro</a><br>
+  <a href="https://github.com/mazalagabriel">Gabriel Mazala</a><br>
+
+    
 
